@@ -6,7 +6,9 @@
 	position: center;
 	display: block;
 	margin: auto;
-	margin-top: -150px;
+	width: 180px;
+	height: auto;
+	margin-top: 0px;
 	/* box-shadow: x-coordinate y-coordinate blur #color*/
 	box-shadow: 8px 8px #E5E3E8;
 
@@ -25,6 +27,13 @@ header {
 	color: #2B2B2B;
 }
 
+hr {
+	width: 60%;
+	margin-bottom: 30px;
+	background-color: #1F1F1F;
+	border-color: #1F1F1F;
+}
+
 p {
 	word-spacing: 3px;
 	text-align: justify;
@@ -32,57 +41,59 @@ p {
 	line-height: 1.5;
 }
 
+/*blog title*/
 h1 {
 	font-weight: 400;
 	font-size: 50px;
 	color: #1F1F1F;
+	margin-bottom: 10px;
 }
 
+/*entry title*/
 h2 {
 	font-size: 35px;
-	margin: 20px 0 0 0;
+	margin: 45px 0 0 0;
 	color: #2E2E2E;
-}
-
-h3 {
-	font-size: 22px;
-	margin: 0;
-	color: ;
-}
-
-h4 {
-	font-size: 18px;
-	color: #707070;
 	text-align: center;
+}
+
+/*entry date*/
+h3 {
+	font-size: 18px;
+	/*color: #707070;*/
+	color: rgb(129, 129, 129);
+	text-align: center;
+	margin: 10px;
+}
+
+.date {
+	border-top: 1px solid rgb(129, 129, 129);
+	border-bottom: 1px solid rgb(129, 129, 129);
+	margin: 5px 0;
+	padding: 15px 0;
+	letter-spacing: 2px;
 	font-weight: 400;
 }
 
+/*entry location*/
+h4 {
+	font-size: 20px;
+	color: rgb(129, 129, 129);
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
 .entry {
-	margin: 0 15%;
-}
-
-.big-hr {
-	width: 70%;
-	margin-bottom: 40px;
-	background-color: #1F1F1F;
-	border-color: #1F1F1F;
-}
-
-.small-hr {
-	width: 40px;
-	margin-bottom: 5px;
-	background-color: #404040;
-}
-
-.footer-hr {
-	margin-top: 100px;
-	width: 70%;
+	margin: 0 20%;
 }
 
 footer {
-	margin: 30px;
-	margin-bottom: 0;
 	font-size: 15px;
+	background-color: #E5E3E8;
+	text-align: center;
+	padding: 25px 0 ;
+	margin: 100px -40px 0 -40px;
 }
 
 .social {
@@ -98,6 +109,10 @@ footer {
 
 .social-img {
 	padding-right: 12px;
+}
+
+.thanks {
+	font-size: 12px;
 }
 
 a:visited {
@@ -117,17 +132,3 @@ a:hover {
 a:active {
 	color: #707070;
 }
-
-.thanks {
-	height: 40px;
-	padding: 25px 0 ;
-	margin: 30px -40px 0 -40px;
-	font-size: 12px;
-	background-color: #E5E3E8;
-	text-align: center;
-}
-
-
-
-
-
