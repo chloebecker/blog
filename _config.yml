@@ -17,7 +17,7 @@ title: Chloe à Angers
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 font_link: "https://fonts.googleapis.com/css?family=Average"
-#"https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Spectral:200,300,400,500,600"
+font_link2: "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Spectral:200,300,400,500,600"
 css_link: "css/travelBlog.css"
 
 github_username:  chloebecker
