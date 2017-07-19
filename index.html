@@ -8,6 +8,8 @@ layout: default
 	  <h3 class="date">{{post.date | date: '%B %d, %Y'}}</h3>
 		<p>{{post.content}}</p>
 		<h4><a href="https://www.google.com/maps/place/{{post.city}}" target="_blank">{{post.location}}</a></h4>
+		<h4><a href="https://www.google.com/maps/place/{{post.city2}}" target="_blank">{{post.location2}}</a></h4>
+		<h4><a href="https://www.google.com/maps/place/{{post.city3}}" target="_blank">{{post.location3}}</a></h4>
 		{% if forloop.last == false %}
   		<h3>. . .</h3>
 		{% endif %}
