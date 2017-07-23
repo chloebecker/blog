@@ -2,7 +2,11 @@
 layout: default
 title: Semaine N˚2
 location: Angers, France
+location2: Saint Malo
+location3: Mont Saint Michel
 city: angers
+city2: saint-malo
+city3: mont-saint-michel
 ---
 
 I'm officially half-way through my study abroad program! It's gone by so fast but also pretty slow- a weird feeling that accompanies a lot of good things in life. In the past two weeks, I've hit a big learning curve and visited some beautiful places. 
