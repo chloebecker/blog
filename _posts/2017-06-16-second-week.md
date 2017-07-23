@@ -1,4 +1,4 @@
- ---
+---
 layout: default
 title: Semaine N˚2
 location: Angers, France
